@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="PBU-sU-YNO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ny-dK-5vO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="tqk-cx-hp0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M4j-Rk-sHz">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="eX7-z7-kGK">
+                                <rect key="frame" x="202" y="302" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-650" y="45"/>
+        </scene>
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.60000000000000009" contentMode="scaleToFill" id="XOi-HW-oZF" userLabel="Decoration1">
+                                <rect key="frame" x="190" y="621" width="387" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91470025510204078" green="0.9012320836744544" blue="0.60617971550692284" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.60000002384185791" contentMode="scaleToFill" id="dLR-KW-leL" userLabel="Decoration2">
+                                <rect key="frame" x="191" y="110" width="387" height="453"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91470025509999997" green="0.90123208369999996" blue="0.60617971550000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <pickerView contentMode="scaleToFill" id="fno-E1-S25">
+                                <rect key="frame" x="220" y="710" width="328" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="XqX-ZJ-5qw"/>
+                                    <outlet property="delegate" destination="2" id="TDc-OG-qMy"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="OrI-u4-f3r">
+                                <rect key="frame" x="278" y="637" width="212" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="SN7-EO-UQJ" userLabel="Word hint">
+                                <rect key="frame" x="278" y="499" width="212" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.25" tag="91" contentMode="scaleToFill" id="Wfl-vo-eYi" userLabel="Blocker1">
+                                <rect key="frame" x="234" y="796" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.192750853" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.25000001192092902" tag="92" contentMode="scaleToFill" id="THO-x8-iJs" userLabel="Blocker2">
+                                <rect key="frame" x="310" y="796" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.192750853" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.25000001192092902" tag="93" contentMode="scaleToFill" id="8or-Rx-f1C" userLabel="Blocker3">
+                                <rect key="frame" x="387" y="796" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.192750853" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view alpha="0.25" tag="94" contentMode="scaleToFill" id="mEh-Ix-rBH" userLabel="Blocker4">
+                                <rect key="frame" x="464" y="796" width="70" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.192750853" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="iw0-v9-lIL">
+                                <rect key="frame" x="20" y="59" width="207" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Easy"/>
+                                    <segment title="Normal"/>
+                                    <segment title="Hard"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changediff:" destination="2" eventType="valueChanged" id="mvJ-wZ-6II"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" tag="81" contentMode="scaleToFill" id="9ZK-Iu-9gL">
+                                <rect key="frame" x="209" y="127" width="350" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="82" contentMode="scaleToFill" id="PW5-fU-roW">
+                                <rect key="frame" x="209" y="127" width="350" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99467839206736397" blue="0.66869591506560799" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="diffpicker" destination="iw0-v9-lIL" id="sGk-9p-CwS"/>
+                        <outlet property="hint" destination="SN7-EO-UQJ" id="hzI-2B-Xfk"/>
+                        <outlet property="label" destination="OrI-u4-f3r" id="ZiN-ra-iBh"/>
+                        <outlet property="picker" destination="fno-E1-S25" id="aEW-zN-f2j"/>
+                        <outlet property="view1" destination="9ZK-Iu-9gL" id="M0c-Yh-g8t"/>
+                        <outlet property="view2" destination="PW5-fU-roW" id="l0X-Iw-rS6"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

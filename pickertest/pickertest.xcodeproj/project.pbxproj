@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81F280DE14CD3A7C00C412DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280DD14CD3A7C00C412DD /* UIKit.framework */; };
+		81F280E014CD3A7C00C412DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280DF14CD3A7C00C412DD /* Foundation.framework */; };
+		81F280E214CD3A7C00C412DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280E114CD3A7C00C412DD /* CoreGraphics.framework */; };
+		81F280E814CD3A7C00C412DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F280E614CD3A7C00C412DD /* InfoPlist.strings */; };
+		81F280EA14CD3A7C00C412DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F280E914CD3A7C00C412DD /* main.m */; };
+		81F280EE14CD3A7C00C412DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F280ED14CD3A7C00C412DD /* AppDelegate.m */; };
+		81F280F114CD3A7C00C412DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F280EF14CD3A7C00C412DD /* MainStoryboard_iPhone.storyboard */; };
+		81F280F414CD3A7C00C412DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F280F214CD3A7C00C412DD /* MainStoryboard_iPad.storyboard */; };
+		81F280F714CD3A7C00C412DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F280F614CD3A7C00C412DD /* ViewController.m */; };
+		81F280FF14CD3A7C00C412DD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280FE14CD3A7C00C412DD /* SenTestingKit.framework */; };
+		81F2810014CD3A7C00C412DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280DD14CD3A7C00C412DD /* UIKit.framework */; };
+		81F2810114CD3A7C00C412DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F280DF14CD3A7C00C412DD /* Foundation.framework */; };
+		81F2810914CD3A7C00C412DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F2810714CD3A7C00C412DD /* InfoPlist.strings */; };
+		81F2810C14CD3A7C00C412DD /* pickertestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F2810B14CD3A7C00C412DD /* pickertestTests.m */; };
+		81F2812214CD96E900C412DD /* s_lanyangyang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812114CD96E900C412DD /* s_lanyangyang.png */; };
+		81F2812414CD972700C412DD /* s_huitailang.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812314CD972700C412DD /* s_huitailang.png */; };
+		81F2813114CDD96F00C412DD /* s_baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812514CDD96F00C412DD /* s_baby.png */; };
+		81F2813214CDD96F00C412DD /* s_bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812614CDD96F00C412DD /* s_bike.png */; };
+		81F2813314CDD96F00C412DD /* s_bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812714CDD96F00C412DD /* s_bird.png */; };
+		81F2813414CDD96F00C412DD /* s_disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812814CDD96F00C412DD /* s_disk.png */; };
+		81F2813514CDD96F00C412DD /* s_fish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812914CDD96F00C412DD /* s_fish.jpg */; };
+		81F2813614CDD96F00C412DD /* s_foot.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812A14CDD96F00C412DD /* s_foot.png */; };
+		81F2813714CDD96F00C412DD /* s_hand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812B14CDD96F00C412DD /* s_hand.jpg */; };
+		81F2813814CDD96F00C412DD /* s_kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812C14CDD96F00C412DD /* s_kid.png */; };
+		81F2813914CDD96F00C412DD /* s_kite.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812D14CDD96F00C412DD /* s_kite.png */; };
+		81F2813A14CDD96F00C412DD /* s_rice.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812E14CDD96F00C412DD /* s_rice.png */; };
+		81F2813B14CDD96F00C412DD /* s_sand.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2812F14CDD96F00C412DD /* s_sand.png */; };
+		81F2813C14CDD96F00C412DD /* s-big-cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2813014CDD96F00C412DD /* s-big-cover.png */; };
+		81F2813E14CDD9BF00C412DD /* ss_kid.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2813D14CDD9BF00C412DD /* ss_kid.png */; };
+		81F2814014CDD9D500C412DD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2813F14CDD9D500C412DD /* Default-Portrait~ipad.png */; };
+		81F2814214CDD9DA00C412DD /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2814114CDD9DA00C412DD /* Default-Landscape~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81F2810214CD3A7C00C412DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81F280D014CD3A7C00C412DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F280D814CD3A7C00C412DD;
+			remoteInfo = pickertest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81F280D914CD3A7C00C412DD /* Kids Learn Words.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Learn Words.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F280DD14CD3A7C00C412DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81F280DF14CD3A7C00C412DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81F280E114CD3A7C00C412DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81F280E514CD3A7C00C412DD /* pickertest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pickertest-Info.plist"; sourceTree = "<group>"; };
+		81F280E714CD3A7C00C412DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81F280E914CD3A7C00C412DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81F280EB14CD3A7C00C412DD /* pickertest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pickertest-Prefix.pch"; sourceTree = "<group>"; };
+		81F280EC14CD3A7C00C412DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81F280ED14CD3A7C00C412DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81F280F014CD3A7C00C412DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		81F280F314CD3A7C00C412DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		81F280F514CD3A7C00C412DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81F280F614CD3A7C00C412DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81F280FD14CD3A7C00C412DD /* pickertestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pickertestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81F280FE14CD3A7C00C412DD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		81F2810614CD3A7C00C412DD /* pickertestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pickertestTests-Info.plist"; sourceTree = "<group>"; };
+		81F2810814CD3A7C00C412DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81F2810A14CD3A7C00C412DD /* pickertestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickertestTests.h; sourceTree = "<group>"; };
+		81F2810B14CD3A7C00C412DD /* pickertestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickertestTests.m; sourceTree = "<group>"; };
+		81F2812114CD96E900C412DD /* s_lanyangyang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_lanyangyang.png; sourceTree = "<group>"; };
+		81F2812314CD972700C412DD /* s_huitailang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_huitailang.png; sourceTree = "<group>"; };
+		81F2812514CDD96F00C412DD /* s_baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_baby.png; sourceTree = "<group>"; };
+		81F2812614CDD96F00C412DD /* s_bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_bike.png; sourceTree = "<group>"; };
+		81F2812714CDD96F00C412DD /* s_bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_bird.png; sourceTree = "<group>"; };
+		81F2812814CDD96F00C412DD /* s_disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_disk.png; sourceTree = "<group>"; };
+		81F2812914CDD96F00C412DD /* s_fish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_fish.jpg; sourceTree = "<group>"; };
+		81F2812A14CDD96F00C412DD /* s_foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_foot.png; sourceTree = "<group>"; };
+		81F2812B14CDD96F00C412DD /* s_hand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_hand.jpg; sourceTree = "<group>"; };
+		81F2812C14CDD96F00C412DD /* s_kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_kid.png; sourceTree = "<group>"; };
+		81F2812D14CDD96F00C412DD /* s_kite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_kite.png; sourceTree = "<group>"; };
+		81F2812E14CDD96F00C412DD /* s_rice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_rice.png; sourceTree = "<group>"; };
+		81F2812F14CDD96F00C412DD /* s_sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s_sand.png; sourceTree = "<group>"; };
+		81F2813014CDD96F00C412DD /* s-big-cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s-big-cover.png"; sourceTree = "<group>"; };
+		81F2813D14CDD9BF00C412DD /* ss_kid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ss_kid.png; sourceTree = "<group>"; };
+		81F2813F14CDD9D500C412DD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		81F2814114CDD9DA00C412DD /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81F280D614CD3A7C00C412DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F280DE14CD3A7C00C412DD /* UIKit.framework in Frameworks */,
+				81F280E014CD3A7C00C412DD /* Foundation.framework in Frameworks */,
+				81F280E214CD3A7C00C412DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F280F914CD3A7C00C412DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F280FF14CD3A7C00C412DD /* SenTestingKit.framework in Frameworks */,
+				81F2810014CD3A7C00C412DD /* UIKit.framework in Frameworks */,
+				81F2810114CD3A7C00C412DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81F280CE14CD3A7C00C412DD = {
+			isa = PBXGroup;
+			children = (
+				81F2814114CDD9DA00C412DD /* Default-Landscape~ipad.png */,
+				81F2813F14CDD9D500C412DD /* Default-Portrait~ipad.png */,
+				81F2813D14CDD9BF00C412DD /* ss_kid.png */,
+				81F280E314CD3A7C00C412DD /* pickertest */,
+				81F2810414CD3A7C00C412DD /* pickertestTests */,
+				81F280DC14CD3A7C00C412DD /* Frameworks */,
+				81F280DA14CD3A7C00C412DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81F280DA14CD3A7C00C412DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81F280D914CD3A7C00C412DD /* Kids Learn Words.app */,
+				81F280FD14CD3A7C00C412DD /* pickertestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81F280DC14CD3A7C00C412DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F280DD14CD3A7C00C412DD /* UIKit.framework */,
+				81F280DF14CD3A7C00C412DD /* Foundation.framework */,
+				81F280E114CD3A7C00C412DD /* CoreGraphics.framework */,
+				81F280FE14CD3A7C00C412DD /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81F280E314CD3A7C00C412DD /* pickertest */ = {
+			isa = PBXGroup;
+			children = (
+				81F280EC14CD3A7C00C412DD /* AppDelegate.h */,
+				81F280ED14CD3A7C00C412DD /* AppDelegate.m */,
+				81F280EF14CD3A7C00C412DD /* MainStoryboard_iPhone.storyboard */,
+				81F280F214CD3A7C00C412DD /* MainStoryboard_iPad.storyboard */,
+				81F280F514CD3A7C00C412DD /* ViewController.h */,
+				81F280F614CD3A7C00C412DD /* ViewController.m */,
+				81F280E414CD3A7C00C412DD /* Supporting Files */,
+			);
+			path = pickertest;
+			sourceTree = "<group>";
+		};
+		81F280E414CD3A7C00C412DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F280E514CD3A7C00C412DD /* pickertest-Info.plist */,
+				81F280E614CD3A7C00C412DD /* InfoPlist.strings */,
+				81F2812114CD96E900C412DD /* s_lanyangyang.png */,
+				81F2812314CD972700C412DD /* s_huitailang.png */,
+				81F2812514CDD96F00C412DD /* s_baby.png */,
+				81F2812614CDD96F00C412DD /* s_bike.png */,
+				81F2812714CDD96F00C412DD /* s_bird.png */,
+				81F2812814CDD96F00C412DD /* s_disk.png */,
+				81F2812914CDD96F00C412DD /* s_fish.jpg */,
+				81F2812A14CDD96F00C412DD /* s_foot.png */,
+				81F2812B14CDD96F00C412DD /* s_hand.jpg */,
+				81F2812C14CDD96F00C412DD /* s_kid.png */,
+				81F2812D14CDD96F00C412DD /* s_kite.png */,
+				81F2812E14CDD96F00C412DD /* s_rice.png */,
+				81F2812F14CDD96F00C412DD /* s_sand.png */,
+				81F2813014CDD96F00C412DD /* s-big-cover.png */,
+				81F280E914CD3A7C00C412DD /* main.m */,
+				81F280EB14CD3A7C00C412DD /* pickertest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81F2810414CD3A7C00C412DD /* pickertestTests */ = {
+			isa = PBXGroup;
+			children = (
+				81F2810A14CD3A7C00C412DD /* pickertestTests.h */,
+				81F2810B14CD3A7C00C412DD /* pickertestTests.m */,
+				81F2810514CD3A7C00C412DD /* Supporting Files */,
+			);
+			path = pickertestTests;
+			sourceTree = "<group>";
+		};
+		81F2810514CD3A7C00C412DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81F2810614CD3A7C00C412DD /* pickertestTests-Info.plist */,
+				81F2810714CD3A7C00C412DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81F280D814CD3A7C00C412DD /* pickertest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F2810F14CD3A7C00C412DD /* Build configuration list for PBXNativeTarget "pickertest" */;
+			buildPhases = (
+				81F280D514CD3A7C00C412DD /* Sources */,
+				81F280D614CD3A7C00C412DD /* Frameworks */,
+				81F280D714CD3A7C00C412DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pickertest;
+			productName = pickertest;
+			productReference = 81F280D914CD3A7C00C412DD /* Kids Learn Words.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81F280FC14CD3A7C00C412DD /* pickertestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81F2811214CD3A7C00C412DD /* Build configuration list for PBXNativeTarget "pickertestTests" */;
+			buildPhases = (
+				81F280F814CD3A7C00C412DD /* Sources */,
+				81F280F914CD3A7C00C412DD /* Frameworks */,
+				81F280FA14CD3A7C00C412DD /* Resources */,
+				81F280FB14CD3A7C00C412DD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81F2810314CD3A7C00C412DD /* PBXTargetDependency */,
+			);
+			name = pickertestTests;
+			productName = pickertestTests;
+			productReference = 81F280FD14CD3A7C00C412DD /* pickertestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81F280D014CD3A7C00C412DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 81F280D314CD3A7C00C412DD /* Build configuration list for PBXProject "pickertest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81F280CE14CD3A7C00C412DD;
+			productRefGroup = 81F280DA14CD3A7C00C412DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81F280D814CD3A7C00C412DD /* pickertest */,
+				81F280FC14CD3A7C00C412DD /* pickertestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81F280D714CD3A7C00C412DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F280E814CD3A7C00C412DD /* InfoPlist.strings in Resources */,
+				81F280F114CD3A7C00C412DD /* MainStoryboard_iPhone.storyboard in Resources */,
+				81F280F414CD3A7C00C412DD /* MainStoryboard_iPad.storyboard in Resources */,
+				81F2812214CD96E900C412DD /* s_lanyangyang.png in Resources */,
+				81F2812414CD972700C412DD /* s_huitailang.png in Resources */,
+				81F2813114CDD96F00C412DD /* s_baby.png in Resources */,
+				81F2813214CDD96F00C412DD /* s_bike.png in Resources */,
+				81F2813314CDD96F00C412DD /* s_bird.png in Resources */,
+				81F2813414CDD96F00C412DD /* s_disk.png in Resources */,
+				81F2813514CDD96F00C412DD /* s_fish.jpg in Resources */,
+				81F2813614CDD96F00C412DD /* s_foot.png in Resources */,
+				81F2813714CDD96F00C412DD /* s_hand.jpg in Resources */,
+				81F2813814CDD96F00C412DD /* s_kid.png in Resources */,
+				81F2813914CDD96F00C412DD /* s_kite.png in Resources */,
+				81F2813A14CDD96F00C412DD /* s_rice.png in Resources */,
+				81F2813B14CDD96F00C412DD /* s_sand.png in Resources */,
+				81F2813C14CDD96F00C412DD /* s-big-cover.png in Resources */,
+				81F2813E14CDD9BF00C412DD /* ss_kid.png in Resources */,
+				81F2814014CDD9D500C412DD /* Default-Portrait~ipad.png in Resources */,
+				81F2814214CDD9DA00C412DD /* Default-Landscape~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F280FA14CD3A7C00C412DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F2810914CD3A7C00C412DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81F280FB14CD3A7C00C412DD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F280D514CD3A7C00C412DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F280EA14CD3A7C00C412DD /* main.m in Sources */,
+				81F280EE14CD3A7C00C412DD /* AppDelegate.m in Sources */,
+				81F280F714CD3A7C00C412DD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F280F814CD3A7C00C412DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F2810C14CD3A7C00C412DD /* pickertestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81F2810314CD3A7C00C412DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81F280D814CD3A7C00C412DD /* pickertest */;
+			targetProxy = 81F2810214CD3A7C00C412DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81F280E614CD3A7C00C412DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F280E714CD3A7C00C412DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81F280EF14CD3A7C00C412DD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F280F014CD3A7C00C412DD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		81F280F214CD3A7C00C412DD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F280F314CD3A7C00C412DD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		81F2810714CD3A7C00C412DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81F2810814CD3A7C00C412DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81F2810D14CD3A7C00C412DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81F2810E14CD3A7C00C412DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81F2811014CD3A7C00C412DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickertest/pickertest-Prefix.pch";
+				INFOPLIST_FILE = "pickertest/pickertest-Info.plist";
+				PRODUCT_NAME = "Kids Learn Words";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81F2811114CD3A7C00C412DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickertest/pickertest-Prefix.pch";
+				INFOPLIST_FILE = "pickertest/pickertest-Info.plist";
+				PRODUCT_NAME = "Kids Learn Words";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81F2811314CD3A7C00C412DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pickertest.app/pickertest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickertest/pickertest-Prefix.pch";
+				INFOPLIST_FILE = "pickertestTests/pickertestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		81F2811414CD3A7C00C412DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pickertest.app/pickertest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pickertest/pickertest-Prefix.pch";
+				INFOPLIST_FILE = "pickertestTests/pickertestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81F280D314CD3A7C00C412DD /* Build configuration list for PBXProject "pickertest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F2810D14CD3A7C00C412DD /* Debug */,
+				81F2810E14CD3A7C00C412DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F2810F14CD3A7C00C412DD /* Build configuration list for PBXNativeTarget "pickertest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F2811014CD3A7C00C412DD /* Debug */,
+				81F2811114CD3A7C00C412DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81F2811214CD3A7C00C412DD /* Build configuration list for PBXNativeTarget "pickertestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81F2811314CD3A7C00C412DD /* Debug */,
+				81F2811414CD3A7C00C412DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81F280D014CD3A7C00C412DD /* Project object */;
+}
